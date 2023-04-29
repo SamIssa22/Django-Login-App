@@ -1,0 +1,11 @@
+{% autospace off %}
+
+Welcome to Django Login
+
+Hello {{name}}!
+
+Please confrim your email by clicking on the following limk.
+
+Confrimation Link : http://{{domain}}{% url 'activate' uidb64=uid token=token %}
+
+{% endautospace %}
